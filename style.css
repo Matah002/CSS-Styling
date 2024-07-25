@@ -1,0 +1,50 @@
+body{
+    color: red;
+    background-color:fuchsia;
+}
+
+h1{
+    color: blue;
+}
+
+
+/* >
+>
+>
+>
+>
+ */
+
+
+/* 
+
+Write the code below in HTML in order for that HTML File to inherit this css styling  */
+/* <link rel="stylesheet" href="style.css"/> */
+
+
+/* Refering to a specific h1, border,text,p,extra use IDs */
+
+#james-h1{
+    color: brown;
+}
+
+
+/* CSS Class */
+
+.fancy-border {
+    border: 3px dashed red;
+}
+
+.blue-text{
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+

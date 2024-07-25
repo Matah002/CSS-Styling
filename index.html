@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body style="color:blue; font-size: 20px; background-color:cornsilk;">
+
+    <header>
+        <h1 style="color:chocolate;"> CSS Tutorial</h1>
+    </header>
+
+<!-- BORDER -->
+
+    <main style="border: 1px solid black; width: 70%">   <!-- border has 3 attributes: width, shape of border, colour of border -->
+        <p>This is a paragraph</p>
+    </main>
+
+    <div style="padding:20px; margin: 25px 0px 25px; background-color:whitesmoke">
+        <h3>Padding is an extra space on the inside, margins are extra space on the outside</h3>
+    </div>
+
+<!-- FLOATS, LIST -->
+
+    <ul style=" background-color: azure; padding: 15px; margin: 0px;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact Us</li>
+        <li>Blogs</li>
+    </ul>
+
+     <!-- float:left; -->
+
+    <p>You can use the display and float CSS attributes to change the way that elements on your wesite are displayed on the screen.</p>
+
+
+<!-- Horizontal List -->
+
+   <div style="padding: 15px; margin: 0px;">
+    <span>mango</span>
+    <span>orange</span>
+    <span>banana</span>
+    <span>pineapple</span>
+   </div>
+  
+ 
+<!-- DISPLAY -->
+
+    <ul style=" background-color:chartreuse; padding: 15px; margin: 0px;">   
+        <li style="display: inline;">Home</li>
+        <li style="display: inline;">About</li>
+        <li style="display: inline;">Contact Us</li>
+        <li style="display: inline;">Blogs</li>
+    </ul>
+    
+
+    <p>You can use the display and float CSS attributes to change the way that elements on your wesite are displayed on the screen.</p>
+
+
+
+    <ul style=" background-color:aquamarine; padding: 15px; margin: 0px;">   
+        <li style="display: flex;">Home</li>
+        <li style="display: flex;">About</li>
+        <li style="display: flex;">Contact Us</li>
+        <li style="display: flex;">Blogs</li>
+    </ul>
+    
+
+    <p>You can use the display and float CSS attributes to change the way that elements on your wesite are displayed on the screen.</p>
+
+    <h1> Relative Positioning</h1>
+    <div style="position: relative; bottom:20px; left: 25px; width: 125px; height: 125px; background-color:blueviolet; color: black;"> Yooooooh </div>
+    <div style="position: relative; width: 140px; height: 140px; background-color:red; color: black;">Radaaa</div>
+
+    <h1> Absolute Positioning</h1>
+    <!-- <div style="position: absolute; top:100px; left: 100px; width: 125px; height: 125px; background-color:blueviolet; color: black;"> Yooooooh </div> -->
+    <div style="position: absolute; width: 140px; height: 140px; background-color:red; color: black;">Radaaa</div>
+    
+    <h1> Fixed Positioning</h1>
+    <h2> You can use this as a web sticker </h2>
+    <div style="position: fixed; top:0px; left: 0px; width: 125px; height: 125px; background-color:gold; color: black;"> Remember!!!! </div>
+    <!-- You can fix it at the bottom too -->
+
+    <h1>Shadows, Opacity, Border Radius</h1>
+    <h1 style="text-shadow: 2px 2px 5px red; position:relative; top:125px; left: 100px; color: black;"> CSS Tutorial </h1>
+    <img style=" border-radius: 50px; opacity:0.4; width: 400px; height: 200px;" src="CSS logo.webp" alt="CSS3 logo"/>
+
+    <!-- Opacity -- transparency of an image 
+         Text- shadow/ Box shadow -- horizontal,vertical shadow, makes shadow blurrr colour of shadow
+         box-shadow:5px 5px 5px gray; -- mostly used in images 
+         border-radius: 50% -- gives a circle
+    -->
+
+<!-- TEXT AND FONTS -->
+
+    <P style=" color: chartreuse; font-size: 2em; font-family: 'Courier New', Courier, monospace; font-weight:200;">
+        James, player prices have been announced and now it’s your turn! Brush up on your budgeting and blow the cobwebs from your tactics board, it’s time to create your squad.
+ 
+        Once again, Erling Haaland can’t stop breaking records. This time, he’s FPL’s first ever £15.0m player! Is he a must-have come Friday 16 August or will you spread your £100m budget? 👀
+ 
+        Will you become a 2024/25 FPL champion? There’s only one way to find out… create your mini-leagues with family, friends and colleagues, and click below to start building your squad with UNLIMITED changes. 👇
+
+    </P>
+    
+    <!-- Write the code below in HTML in order for that HTML File to inherit this css styling  
+    <link rel="stylesheet" href="style.css"/>  -->
+
+<!-- IDs and CLASSES -->
+
+    <h1 id="james-h1">Giving ID in HTML</h1>
+
+    <main class="fancy-border blue-text">
+        <p>Classes and ID's make it easier to reuse styling</p>
+    </main>
+
+
+</body>
+</html>
